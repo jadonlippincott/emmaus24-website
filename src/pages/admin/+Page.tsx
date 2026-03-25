@@ -36,7 +36,7 @@ export default function AdminPage() {
 
   useEffect(() => {
     fetch("/api/auth/me")
-      .then((res) => res.json())
+      .then((res) => res.json() as Promise<AuthState>)
       .then((data) => setAuth(data))
       .catch(() => setAuth({ authenticated: false }));
   }, []);
@@ -88,7 +88,7 @@ export default function AdminPage() {
           throw new Error(text || `Upload failed (${res.status})`);
         }
 
-        const data = await res.json();
+        const data: UploadResult = await res.json();
         uploadResults.push(data);
       } catch (err) {
         setError(

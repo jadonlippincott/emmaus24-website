@@ -80,10 +80,11 @@ export default function SermonPlayer() {
           throw new Error("Failed to load sermons");
         }
 
-        const data = await response.json();
+        const data: { files?: SermonFile[] } | SermonFile[] = await response.json();
 
         if (!cancelled) {
-          setSermons(data.files ?? data ?? []);
+          const items = Array.isArray(data) ? data : data.files ?? [];
+          setSermons(items);
         }
       } catch (err) {
         if (!cancelled) {

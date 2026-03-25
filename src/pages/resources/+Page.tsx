@@ -5,7 +5,7 @@ const categories = [
   { key: "bulletins", label: "Bulletins" },
   { key: "calendars", label: "Church Calendar" },
   { key: "announcements", label: "Announcements" },
-] as const;
+];
 
 const categoryKeys = categories.map((c) => c.key);
 

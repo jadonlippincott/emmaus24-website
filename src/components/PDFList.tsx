@@ -57,10 +57,11 @@ export default function PDFList({ category }: PDFListProps) {
           throw new Error(`Failed to load ${category}`);
         }
 
-        const data = await response.json();
+        const data: { files?: PDFFile[] } | PDFFile[] = await response.json();
 
         if (!cancelled) {
-          setFiles(data.files ?? data ?? []);
+          const items = Array.isArray(data) ? data : data.files ?? [];
+          setFiles(items);
         }
       } catch (err) {
         if (!cancelled) {
