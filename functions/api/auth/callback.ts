@@ -88,6 +88,10 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
   }
 
   // --- Check authorization ---
+  if (!env.ALLOWED_USERS) {
+    return new Response("Server misconfiguration: ALLOWED_USERS is not set.", { status: 500 });
+  }
+
   const allowedUsers = env.ALLOWED_USERS.split(",")
     .map((u) => u.trim().toLowerCase())
     .filter(Boolean);
