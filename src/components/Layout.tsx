@@ -25,9 +25,6 @@ export default function Layout({ children }: LayoutProps) {
         </div>
       </header>
 
-      {/* Wheat Banner */}
-      <WheatBanner height={60} className="bg-primary-dark" />
-
       {/* Navigation */}
       <Navigation />
 
@@ -117,8 +114,11 @@ export default function Layout({ children }: LayoutProps) {
             </div>
           </div>
 
+          {/* Wheat Banner Divider */}
+          <WheatBanner height={40} className="mt-8" opacity={0.6} />
+
           {/* Copyright & Dedication */}
-          <div className="mt-8 pt-6 border-t border-white/20 text-center text-xs text-white/50 space-y-2">
+          <div className="pt-4 text-center text-xs text-white/50 space-y-2">
             <p>
               &copy; {currentYear} Emmaus Evangelical Lutheran Church. All
               rights reserved.
