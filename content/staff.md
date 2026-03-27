@@ -39,6 +39,3 @@ His interests include Theology, Liturgy, Hymnody, Catechesis, Church History and
 - [A Letter from President-Elect Stuckwisch](https://in.lcms.org/a-letter-from-president-elect-stuckwisch/)
 - [Pastor Stuckwisch's Blog](https://sword-in-hat.blogspot.com/)
 
----
-
-If you would like to speak with one of our pastors, please do not hesitate to reach out by phone at **(574) 287-4151** or by email. Our pastors are happy to meet with you, answer your questions about the Christian faith, or simply visit over a cup of coffee.
