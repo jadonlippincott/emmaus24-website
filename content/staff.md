@@ -1,12 +1,14 @@
 # Our Pastors
 
-The Lord has blessed Emmaus Evangelical Lutheran Church with faithful pastors who are called to preach His Word, administer His Sacraments, and care for the souls entrusted to them. We give thanks to God for the men He has placed in this office among us.
+**My sheep hear my voice, and I know them, and they follow me: And I give unto them eternal life; and they shall never perish, neither shall any man pluck them out of my hand.** — St. John 10:27-28
+
+The Lord has blessed Emmaus Evangelical Lutheran Church with faithful pastors who are called to preach His Word and administer His Sacraments - to tend the Lord's flock gathered here. We give thanks to God for the men He has placed in this office among us.
 
 ---
 
 ## Rev. Ronald Stephens
 
-**Pastor** -- *Installed January 26, 2023*
+**Pastor** - _Installed January 26, 2023_
 
 Born and raised in Southern California, the Rev. Ronald A. Stephens is a 2004 graduate of Concordia College, Bronxville, NY, where he met his wife, Becky. The Lord has blessed them with five children: four daughters, Evie, Lily, Ava, and Lizzie; and one son, Ronnie.
 
@@ -24,18 +26,15 @@ His theological interests include the history, theology, and conduct of the Divi
 
 His non-theological interests include spending time with his family, the Green Bay Packers, good beer, superhero movies (especially Batman), video games (Batman, WWE, and Madden Football), and the TV shows "Lost," "The Office," and "Community."
 
-**Contact:** [RStephens82@aol.com](mailto:RStephens82@aol.com)
-
 ---
 
 ## Rev. Dr. Richard Stuckwisch
 
-**Pastor** -- *May 1996--present*
+**Pastor** - _Installed May 1996_
 
 Pastor Stuckwisch has been married 40 years. Over that time he and his wife have shared ten children born (six boys, four girls), three sons and four daughters added by marriage, a son who went ahead of them to heaven from the womb, and twenty-four grandchildren and counting. Ordained in 1996, he has ever since faithfully served this same congregation of Emmaus as a pastor. Since 2022, however, he has served the Church Militant full-time as the president of the Indiana District of the Lutheran Church Missouri Synod. He has a Ph.D. in Liturgical Studies from the University of Notre Dame (2003), and an S.T.M. from Concordia Theological Seminary, Fort Wayne, Indiana.
 
 His interests include Theology, Liturgy, Hymnody, Catechesis, Church History and Tradition, The Lutheran Confessions, Family and Friends, Movies and Music, Harry Potter, Reading to my children, Paul Gerhardt, Guinness (liquid bread), Starbucks (liquid desert), and Cold Stone Creamery (blame it on the Bean).
 
-- [A Letter from President-Elect Stuckwisch](https://in.lcms.org/a-letter-from-president-elect-stuckwisch/)
+- [A District Letter from President-Elect Stuckwisch](https://in.lcms.org/a-letter-from-president-elect-stuckwisch/)
 - [Pastor Stuckwisch's Blog](https://sword-in-hat.blogspot.com/)
-
