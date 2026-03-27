@@ -12,10 +12,11 @@ Since A.D. 1923, Emmaus has been a place where the Gospel of Jesus Christ is fai
 
 **Sunday Mornings at 9:00 AM**
 
-929 Milton Street
-South Bend, Indiana 46613-2825
+[929 Milton Street South Bend, Indiana 46613-2825](https://www.google.com/maps/dir/?api=1&destination=929+Milton+Street+South+Bend+IN+46613)
 
-Whether you are a confessional Lutheran, new to the faith, or simply seeking a church home, we warmly welcome you among us. Come and hear preached Law and Gospel - the Old Adam and the New Christ - death and resurrection. Come and feast with us the Wedding Feast of the Lamb, on the very Body and Blood of Christ Himself.
+Whether you are a confessional Lutheran, new to the faith, or simply seeking a church home, we warmly welcome you among us. Come and hear preached Law and Gospel - the Old Adam and the New Christ - death and resurrection. Come and feast with us the Wedding Feast of the Lamb: the very Body and Blood of Christ Himself.
+
+Please check our [calendar](https://emmaus24-website.pages.dev/resources#calendars) for the most up to date service times for Feast Days and mid-week Evening Prayer and Vespers.
 
 ## The Lord's House on Milton Street
 
