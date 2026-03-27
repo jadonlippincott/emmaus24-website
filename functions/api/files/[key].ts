@@ -1,4 +1,4 @@
-import type { Env } from "../../types";
+import type { Env } from "../_types";
 
 /**
  * Content-type mapping for common file extensions that R2 may not have

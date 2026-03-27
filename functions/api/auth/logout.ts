@@ -1,4 +1,4 @@
-import type { Env } from "../../types";
+import type { Env } from "../_types";
 import { buildClearSessionCookie } from "../_auth";
 
 /**

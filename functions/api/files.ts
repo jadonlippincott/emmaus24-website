@@ -1,4 +1,4 @@
-import type { Env } from "../types";
+import type { Env } from "./_types";
 
 const VALID_CATEGORIES = new Set([
   "bulletins",
