@@ -40,8 +40,15 @@ export default function Layout({ children }: LayoutProps) {
                 Contact
               </h3>
               <address className="not-italic text-sm leading-relaxed space-y-1">
-                <p>929 Milton Street</p>
-                <p>South Bend, Indiana 46613-2825</p>
+                <a
+                  href="https://www.google.com/maps/dir/?api=1&destination=929+Milton+Street+South+Bend+IN+46613"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-accent-light transition-colors"
+                >
+                  <p>929 Milton Street</p>
+                  <p>South Bend, Indiana 46613-2825</p>
+                </a>
                 <p className="mt-2">
                   <a
                     href="tel:+15742874151"
@@ -106,12 +113,13 @@ export default function Layout({ children }: LayoutProps) {
             </div>
           </div>
 
-          {/* Copyright */}
-          <div className="mt-8 pt-6 border-t border-white/20 text-center text-xs text-white/50">
+          {/* Copyright & Dedication */}
+          <div className="mt-8 pt-6 border-t border-white/20 text-center text-xs text-white/50 space-y-2">
             <p>
               &copy; {currentYear} Emmaus Evangelical Lutheran Church. All
               rights reserved.
             </p>
+            <p className="italic">Dedicated to the Memory of David S. Smith</p>
           </div>
         </div>
       </footer>
