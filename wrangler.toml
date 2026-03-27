@@ -6,9 +6,5 @@ pages_build_output_dir = "dist/client"
 binding = "R2"
 bucket_name = "emmaus24-files"
 
-[vars]
-# Comma-separated list of GitHub usernames allowed to access /admin
-ALLOWED_USERS = ""
-# GitHub OAuth App credentials (set via `wrangler secret put`)
-# GITHUB_CLIENT_ID = ""
-# GITHUB_CLIENT_SECRET = ""
+# Environment variables are set via `wrangler pages secret put`:
+# GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET, SESSION_SECRET, ALLOWED_USERS
