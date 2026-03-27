@@ -4,23 +4,35 @@ We would love to hear from you. Whether you have questions about our congregatio
 
 ---
 
-## Church Address
+## Address
 
-**Emmaus Evangelical Lutheran Church**
 [929 Milton Street South Bend, Indiana 46613-2825](https://www.google.com/maps/dir/?api=1&destination=929+Milton+Street+South+Bend+IN+46613)
 
-## Phone
+### Directions
+
+Emmaus Evangelical Lutheran Church is located on the southeast side of the city - one-block west of Miami St. Our parking lot can be accessed from either direction of Milton Street. Feel free to park on Dale Ave if there are no parking spots available.
+
+---
+
+## Reach out
+
+### Phone
 
 **Church Office:** [(574) 287-4151](tel:+15742874151)
 
-## Email
+### Email
 
 **Pastor Stephens:** [RStephens82@aol.com](mailto:RStephens82@aol.com)
+
 **Treasurer:** [treasurer@emmaus24.org](mailto:treasurer@emmaus24.org)
+
 **Secretary:** [emmaus1923secretary@gmail.com](mailto:emmaus1923secretary@gmail.com)
+
 **Webmaster:** [Emmaus24@Emmaus24.org](mailto:Emmaus24@Emmaus24.org)
 
-## Divine Service
+---
+
+## In-Person
 
 **Sunday Mornings at 9:00 AM**
 
@@ -28,12 +40,4 @@ All are welcome to join us as we worship Jesus Christ in the Divine Service. If 
 
 After the service, we will gather below the sanctuary for light refreshment and Bible study.
 
-Please check our calendar for the most up to date service times for Feast Days and mid-week Evening Prayer and Vespers.
-
-## Directions
-
-Emmaus Evangelical Lutheran Church is located at **929 Milton Street** in South Bend, Indiana, near the southeast side of the city - one-block west of Miami St. Our parking lot can be accessed from either direction of Milton Street. Feel free to park on Dale Ave if there are no parking spots available.
-
----
-
-We look forward to welcoming you. If you have any questions at all, please reach out.
+Please check our [calendar](https://emmaus24-website.pages.dev/resources#calendars) for the most up to date service times for Feast Days and mid-week Evening Prayer and Vespers.

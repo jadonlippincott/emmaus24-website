@@ -6,6 +6,6 @@ At Emmaus Evangelical Lutheran Church, the proclamation of God's Word stands at 
 
 ## Sermon Archive
 
-Below you will find recordings sermons preached at Emmaus.
+Below you will find recordings of sermons preached at Emmaus.
 
 _Sermons are added regularly. If you have difficulty accessing any recordings or would like a copy of a particular sermon, please contact the church office._
