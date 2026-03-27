@@ -32,9 +32,12 @@ His non-theological interests include spending time with his family, the Green B
 
 **Pastor** -- *May 1996--present*
 
-Pastor Stuckwisch has faithfully served at Emmaus since 1996, shepherding this congregation through nearly three decades of ministry in South Bend.
+Pastor Stuckwisch has been married 40 years. Over that time he and his wife have shared ten children born (six boys, four girls), three sons and four daughters added by marriage, a son who went ahead of them to heaven from the womb, and twenty-four grandchildren and counting. Ordained in 1996, he has ever since faithfully served this same congregation of Emmaus as a pastor. Since 2022, however, he has served the Church Militant full-time as the president of the Indiana District of the Lutheran Church Missouri Synod. He has a Ph.D. in Liturgical Studies from the University of Notre Dame (2003), and an S.T.M. from Concordia Theological Seminary, Fort Wayne, Indiana.
 
-*Full biography forthcoming.*
+His interests include Theology, Liturgy, Hymnody, Catechesis, Church History and Tradition, The Lutheran Confessions, Family and Friends, Movies and Music, Harry Potter, Reading to my children, Paul Gerhardt, Guinness (liquid bread), Starbucks (liquid desert), and Cold Stone Creamery (blame it on the Bean).
+
+- [A Letter from President-Elect Stuckwisch](https://in.lcms.org/a-letter-from-president-elect-stuckwisch/)
+- [Pastor Stuckwisch's Blog](https://sword-in-hat.blogspot.com/)
 
 ---
 
