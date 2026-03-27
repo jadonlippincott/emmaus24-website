@@ -8,29 +8,21 @@ The Lord has blessed Emmaus Evangelical Lutheran Church with faithful pastors wh
 
 **Pastor** -- *Installed January 26, 2023*
 
-Pastor Stephens was born and raised in Southern California. He graduated from Concordia College in Bronxville, New York, in 2004, where he met his wife, Becky. The Lord has blessed them with five children: Evie, Lily, Ava, Lizzie, and Ronnie.
+Born and raised in Southern California, the Rev. Ronald A. Stephens is a 2004 graduate of Concordia College, Bronxville, NY, where he met his wife, Becky. The Lord has blessed them with five children: four daughters, Evie, Lily, Ava, and Lizzie; and one son, Ronnie.
 
-### Formation and Ordination
+Receiving pastoral formation at Concordia Theological Seminary, Ft. Wayne, IN, Pastor Stephens served his fieldwork at New Hope Lutheran Church, Ossian, IN, and his vicarage year at St. John's Lutheran Church, East Moline, IL. He received his Master of Divinity in May 2008.
 
-Following his undergraduate studies, Pastor Stephens pursued his theological formation at Concordia Theological Seminary in Fort Wayne, Indiana. During his seminary years, he served his fieldwork at New Hope Lutheran Church in Ossian, Indiana, and completed his vicarage at St. John's Lutheran Church in East Moline, Illinois. He received his Master of Divinity degree in May 2008 and was ordained into the Office of the Holy Ministry on June 15, 2008.
+Pastor Stephens received his first Call into the Office of the Holy Ministry as Associate Pastor of Historic Zion Evangelical Lutheran Church of Ft. Wayne, IN, and as Headmaster of her Academy. There he received Holy Ordination on June 15, 2008. While at Zion, he served as a member of a steering committee which oversaw the consolidation of three Lutheran schools into one; the result of which was the conclusion of his duties as Headmaster in June 2009.
 
-### Ministry
+In March 2011, Pastor Stephens accepted the Call to serve Holy Trinity Evangelical Lutheran Church, Garfield, NJ, as their pastor and was installed on April 2, 2011. At Holy Trinity he served on the mayor's clerical advisory committee and also oversaw the parish's financial support of Rev. Tom Chryst, former LCMS missionary to Singapore, the Issues, Etc. internet radio program, the Ft. Wayne Seminary, and other outreach projects. His service there ended on December 25, 2017.
 
-Pastor Stephens has served the Lord's Church in a variety of congregations:
+He served Zion Lutheran Church of Garrett, IN, as their vacancy pastor from October 2018 to September 2019 before accepting the Call on September 1 to serve Historic St. John Evangelical Lutheran Church and School of Aurora, IN. He was installed on October 19. The majority of his time there revolved around responding to the Covid-19 pandemic. He fought to keep the church and the school open as much as possible; the church never closed. He also worked to instill a distinctly Lutheran identity in the school. On December 11, 2022, Pastor Stephens accepted the Call to serve Emmaus Evangelical Lutheran Church of South Bend as their pastor and was installed on January 26.
 
-- **Associate Pastor**, Historic Zion Lutheran Church, Fort Wayne, Indiana (2008--2009)
-- **Pastor**, Holy Trinity Lutheran Church, Garfield, New Jersey (2011--2017)
-- **Vacancy Pastor**, Zion Lutheran Church, Garrett, Indiana (2018--2019)
-- **Pastor**, Historic St. John Lutheran Church, Aurora, Indiana (2019--2022)
-- **Pastor**, Emmaus Evangelical Lutheran Church, South Bend, Indiana (2023--present)
+Pastor Stephens has served the wider Synod in writing prayers for the Historic Lectionary through the Synod's "LetUsPray" resource, leading Bible Study and preaching for Matins on the KFUO radio program "His Time," having sermons published in the liturgical journal Gottesdienst, as a contributor to the now defunct theological blog "Alien Righteousness," articles published for the online edition of the Lutheran Witness, a few different projects for LCMS Worship, as an editor of The Lutheran Missal, and as a member of the Society of St. Polycarp.
 
-### Theological Interests
+His theological interests include the history, theology, and conduct of the Divine Liturgy; the Sacramental and Christological nature of the Scriptures (especially the Old Testament); Christology in general; Sacramental theology; the history of the early Church; iconography; and the confessional revival of Lutheranism, especially in America.
 
-Pastor Stephens has a deep love for the Divine Liturgy, sacramental theology, Christology, early Church history, and confessional Lutheranism. His preaching and teaching are shaped by the conviction that Christ is the center of all Scripture and that the Sacraments are the means by which the Lord delivers His gifts of forgiveness, life, and salvation to His people.
-
-### Personal
-
-When he is not studying, preaching, or visiting parishioners, Pastor Stephens enjoys spending time with his family. He is a devoted Green Bay Packers fan, appreciates a good craft beer, has a fondness for superhero films (especially Batman), and enjoys video games and television. He welcomes conversations about the faith -- and about the Packers -- anytime.
+His non-theological interests include spending time with his family, the Green Bay Packers, good beer, superhero movies (especially Batman), video games (Batman, WWE, and Madden Football), and the TV shows "Lost," "The Office," and "Community."
 
 **Contact:** [RStephens82@aol.com](mailto:RStephens82@aol.com)
 
