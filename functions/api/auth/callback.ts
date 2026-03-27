@@ -16,6 +16,7 @@ import {
  * user is redirected to /admin.
  */
 export const onRequestGet: PagesFunction<Env> = async (context) => {
+  try {
   const { env, request } = context;
   const url = new URL(request.url);
 
@@ -107,12 +108,14 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
   // --- Create session & redirect ---
   const sessionToken = await createSessionToken(username, env.SESSION_SECRET);
 
-  return new Response(null, {
-    status: 302,
-    headers: [
-      ["Location", "/admin"],
-      ["Set-Cookie", buildSessionCookie(sessionToken)],
-      ["Set-Cookie", buildClearStateCookie()],
-    ],
-  });
+  const headers = new Headers();
+  headers.set("Location", "/admin");
+  headers.append("Set-Cookie", buildSessionCookie(sessionToken));
+  headers.append("Set-Cookie", buildClearStateCookie());
+
+  return new Response(null, { status: 302, headers });
+  } catch (err) {
+    const message = err instanceof Error ? err.message : String(err);
+    return new Response(`Auth callback error: ${message}`, { status: 500 });
+  }
 };

@@ -62,10 +62,11 @@ export async function createSessionToken(
 
   const encoder = new TextEncoder();
   const payloadBytes = encoder.encode(payload);
-  const payloadB64 = toBase64Url(payloadBytes.buffer);
+  const payloadBuffer = new Uint8Array(payloadBytes).buffer;
+  const payloadB64 = toBase64Url(payloadBuffer);
 
   const key = await getSigningKey(secret);
-  const signature = await crypto.subtle.sign("HMAC", key, payloadBytes);
+  const signature = await crypto.subtle.sign("HMAC", key, payloadBuffer);
   const signatureB64 = toBase64Url(signature);
 
   return `${payloadB64}.${signatureB64}`;
@@ -85,11 +86,13 @@ export async function verifySessionToken(
     const signatureBytes = fromBase64Url(signatureB64);
 
     const key = await getSigningKey(secret);
+    const sigBuffer = new Uint8Array(signatureBytes).buffer;
+    const payBuffer = new Uint8Array(payloadBytes).buffer;
     const valid = await crypto.subtle.verify(
       "HMAC",
       key,
-      signatureBytes.buffer as ArrayBuffer,
-      payloadBytes.buffer as ArrayBuffer,
+      sigBuffer,
+      payBuffer,
     );
     if (!valid) return null;
 
