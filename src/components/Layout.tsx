@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import Navigation from "./Navigation";
+import WheatBanner from "./WheatBanner";
 
 interface LayoutProps {
   children: ReactNode;
@@ -23,6 +24,9 @@ export default function Layout({ children }: LayoutProps) {
           </a>
         </div>
       </header>
+
+      {/* Wheat Banner */}
+      <WheatBanner height={60} className="bg-primary-dark" />
 
       {/* Navigation */}
       <Navigation />

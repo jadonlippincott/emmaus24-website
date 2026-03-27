@@ -2,10 +2,10 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-  /* Emmaus church color palette */
-  --color-primary: #1e3a5f;
-  --color-primary-light: #2a5080;
-  --color-primary-dark: #142844;
+  /* Emmaus church color palette — green & gold */
+  --color-primary: #00623a;
+  --color-primary-light: #007a48;
+  --color-primary-dark: #004d2d;
   --color-accent: #c8a951;
   --color-accent-light: #dcc574;
   --color-warm-white: #faf8f5;
