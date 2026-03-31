@@ -87,18 +87,29 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     return new Response("Could not determine GitHub username.", { status: 502 });
   }
 
-  // --- Check authorization ---
-  if (!env.ALLOWED_USERS) {
-    return new Response("Server misconfiguration: ALLOWED_USERS is not set.", { status: 500 });
+  // --- Check authorization (must be a repo collaborator with push access) ---
+  const repoResponse = await fetch(
+    "https://api.github.com/repos/jadonlippincott/emmaus24-website",
+    {
+      headers: {
+        Authorization: `Bearer ${tokenData.access_token}`,
+        Accept: "application/vnd.github+json",
+        "User-Agent": "emmaus24-website",
+      },
+    },
+  );
+
+  if (!repoResponse.ok) {
+    return new Response("Failed to verify repository access.", { status: 502 });
   }
 
-  const allowedUsers = env.ALLOWED_USERS.split(",")
-    .map((u) => u.trim().toLowerCase())
-    .filter(Boolean);
+  const repoData = (await repoResponse.json()) as {
+    permissions?: { push?: boolean };
+  };
 
-  if (!allowedUsers.includes(username.toLowerCase())) {
+  if (!repoData.permissions?.push) {
     return new Response(
-      `Access denied. The GitHub user "${username}" is not authorized to access this site.`,
+      `Access denied. The GitHub user "${username}" is not a collaborator on the emmaus24-website repository.`,
       {
         status: 403,
         headers: {
