@@ -11,6 +11,14 @@ interface UploadResult {
   name: string;
 }
 
+interface R2File {
+  key: string;
+  name: string;
+  url: string;
+  uploaded: string;
+  size: number;
+}
+
 const CATEGORIES = [
   { value: "bulletins", label: "Bulletin" },
   { value: "calendars", label: "Church Calendar" },
@@ -33,6 +41,14 @@ export default function AdminPage() {
   const [results, setResults] = useState<UploadResult[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [dragOver, setDragOver] = useState(false);
+
+  // Manage files state
+  const [browseCategory, setBrowseCategory] = useState("bulletins");
+  const [r2Files, setR2Files] = useState<R2File[]>([]);
+  const [loadingFiles, setLoadingFiles] = useState(false);
+  const [deletingKey, setDeletingKey] = useState<string | null>(null);
+  const [manageError, setManageError] = useState<string | null>(null);
+  const [manageSuccess, setManageSuccess] = useState<string | null>(null);
 
   useEffect(() => {
     fetch("/api/auth/me")
@@ -103,6 +119,47 @@ export default function AdminPage() {
       setFiles([]);
     }
     setUploading(false);
+  }
+
+  async function loadFiles() {
+    setLoadingFiles(true);
+    setManageError(null);
+    setManageSuccess(null);
+    try {
+      const res = await fetch(`/api/files?category=${browseCategory}`);
+      if (!res.ok) throw new Error(`Failed to load files (${res.status})`);
+      const data: R2File[] = await res.json();
+      setR2Files(data);
+    } catch (err) {
+      setManageError(err instanceof Error ? err.message : "Failed to load files");
+      setR2Files([]);
+    } finally {
+      setLoadingFiles(false);
+    }
+  }
+
+  async function deleteFile(key: string) {
+    if (!confirm(`Delete "${key}"? This cannot be undone.`)) return;
+    setDeletingKey(key);
+    setManageError(null);
+    setManageSuccess(null);
+    try {
+      const res = await fetch("/api/delete", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ key }),
+      });
+      if (!res.ok) {
+        const text = await res.text();
+        throw new Error(text || `Delete failed (${res.status})`);
+      }
+      setManageSuccess(`Deleted ${key}`);
+      setR2Files((prev) => prev.filter((f) => f.key !== key));
+    } catch (err) {
+      setManageError(err instanceof Error ? err.message : "Delete failed");
+    } finally {
+      setDeletingKey(null);
+    }
   }
 
   // Loading state
@@ -289,6 +346,83 @@ export default function AdminPage() {
           {uploading ? "Uploading..." : `Upload ${files.length} file(s)`}
         </button>
       </form>
+
+      {/* Manage Files */}
+      <div className="mt-12 border-t border-gray-200 pt-8">
+        <h2 className="text-xl font-bold text-[var(--color-primary)] mb-4">
+          Manage Files
+        </h2>
+
+        <div className="flex gap-3 items-end mb-4">
+          <div className="flex-1">
+            <label
+              htmlFor="browse-category"
+              className="block text-sm font-medium text-[var(--color-primary)] mb-1"
+            >
+              Category
+            </label>
+            <select
+              id="browse-category"
+              value={browseCategory}
+              onChange={(e) => setBrowseCategory(e.target.value)}
+              className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-[var(--color-accent)] focus:border-[var(--color-accent)] outline-none"
+            >
+              {CATEGORIES.map((cat) => (
+                <option key={cat.value} value={cat.value}>
+                  {cat.label}
+                </option>
+              ))}
+            </select>
+          </div>
+          <button
+            type="button"
+            onClick={loadFiles}
+            disabled={loadingFiles}
+            className="px-4 py-2 bg-[var(--color-primary)] text-white rounded-lg text-sm font-medium hover:bg-[var(--color-primary-light)] transition-colors disabled:opacity-50 cursor-pointer"
+          >
+            {loadingFiles ? "Loading..." : "Load Files"}
+          </button>
+        </div>
+
+        {manageError && (
+          <div className="bg-red-50 text-red-700 rounded-lg px-4 py-3 text-sm mb-4">
+            {manageError}
+          </div>
+        )}
+
+        {manageSuccess && (
+          <div className="bg-green-50 text-green-700 rounded-lg px-4 py-3 text-sm mb-4">
+            {manageSuccess}
+          </div>
+        )}
+
+        {r2Files.length > 0 && (
+          <ul className="space-y-2">
+            {r2Files.map((file) => (
+              <li
+                key={file.key}
+                className="flex items-center justify-between bg-gray-50 rounded-lg px-4 py-3 text-sm"
+              >
+                <div className="min-w-0 flex-1">
+                  <p className="font-medium truncate">{file.name}</p>
+                  <p className="text-[var(--color-warm-gray)] text-xs">
+                    {(file.size / 1024).toFixed(0)} KB &middot;{" "}
+                    {new Date(file.uploaded).toLocaleDateString()}
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => deleteFile(file.key)}
+                  disabled={deletingKey === file.key}
+                  className="ml-4 px-3 py-1 bg-red-600 text-white rounded text-xs font-medium hover:bg-red-700 transition-colors disabled:opacity-50 cursor-pointer"
+                >
+                  {deletingKey === file.key ? "Deleting..." : "Delete"}
+                </button>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
     </div>
   );
 }
